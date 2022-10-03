@@ -1,0 +1,56 @@
+.service-container {
+  background-color: rgb(var(--black-color));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20rem;
+  margin: 1rem auto;
+  box-shadow: rgb(var(--white-color)) 0px 5px 15px -10px;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.service-container:hover{
+  box-shadow: rgb(var(--white-color)) 0px 15px 15px -10px;
+
+}
+.service__img-container {
+  width: 20rem;
+  height: 20rem;
+}
+
+.service__img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.service__text {
+  background-color: rgb(var(--black-color));
+  color: rgb(var(--white-color));
+  padding: 1rem;
+  box-sizing: content-box;
+  font-weight: bold;
+  height: 12rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  user-select: none;
+}
+.service__price {
+  font-weight: normal;
+  color: rgba(var(--white-color), 0.5);
+}
+
+.service__title {
+  color: rgb(var(--white-color));
+  text-shadow: 1px 1px rgb(var(--black-color));
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.service__description {
+  font-size: 1rem;
+  margin: 1rem 0rem;
+  height: 5rem;
+}
