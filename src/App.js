@@ -1,14 +1,16 @@
-import { useState } from "react";
-import ServicesGrid from "./components/services/Grid";
-import Item from "./components/testimonies/Item";
+import { Route, Routes } from "react-router-dom";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Testimony from "./pages/Testimony";
 
 function App() {
-  const [answer, setAnswer] = useState(false);
-
   return (
     <>
-      <ServicesGrid></ServicesGrid>
-      <Item />
+      <Routes>
+        <Route path="/services" element={<Services></Services>}></Route>
+        <Route path="/testimonies" element={<Testimony></Testimony>}></Route>
+        <Route path="/" element={<About></About>}></Route>
+      </Routes>
     </>
   );
 }

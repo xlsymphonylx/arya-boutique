@@ -9,22 +9,47 @@
   --white-color: 255, 255, 255;
 }
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
-
 }
-
 html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+a,
+u {
+  text-decoration: none;
+  color: black;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(var(--black-color));
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(var(--purple-color), 1);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(var(--purple-color), 0.2);
+}
 body {
-  background: url("../public/imgs/htmlb.jpg");
-  background-clip: content-box;  
+  background: url("../public/imgs/htmlb.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  
   color: white;
   font-family: "Inter", sans-serif;
+  height: 100vh;
 }
 
 .slogan {
