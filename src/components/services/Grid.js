@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Item from "./Item";
 import styles from "../../styles/services/Grid.module.css";
 const services = require("../../assets/services.json");
