@@ -20,7 +20,7 @@ function Navbar() {
             <Link to="/services">Services</Link>
           </li>
           <li className={styles["nav__item"]}>
-            <Link to="/">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
           <li className={styles["nav__item"]}>
             <Link to="/testimonies">Testimonies</Link>

@@ -9,9 +9,8 @@
   border-radius: 1rem;
   cursor: pointer;
 }
-.service-container:hover{
-  box-shadow: rgb(var(--white-color)) 0px 15px 15px -10px;
-
+.service-container:hover {
+  box-shadow: rgb(var(--purple-color)) 0px 10px 10px -10px;
 }
 .service__img-container {
   width: 20rem;
@@ -54,3 +53,4 @@
   margin: 1rem 0rem;
   height: 5rem;
 }
+

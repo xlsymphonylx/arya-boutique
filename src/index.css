@@ -42,11 +42,12 @@ u {
   background: rgba(var(--purple-color), 0.2);
 }
 body {
-  background: url("../public/imgs/htmlb.jpg") no-repeat center center fixed;
+  /* background: url("../public/imgs/htmlb.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
+  background-color: rgb(0, 0, 0);
   color: white;
   font-family: "Inter", sans-serif;
   height: 100vh;
@@ -73,16 +74,17 @@ body {
   font-size: 1.1rem;
   width: 5rem;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .btn-success {
-  background-color: green;
+  background-color: rgba(var(--purple-color), 0.6);
   color: rgb(var(--white-color));
 }
 
 .btn-danger {
-  background-color: red;
-  color: rgb(var(--white-color));
+  background-color: rgb(var(--white-color));
+  color:  rgba(var(--purple-color), 0.6);
 }
 
 .visible {

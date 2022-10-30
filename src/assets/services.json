@@ -2,61 +2,73 @@
   {
     "name": "Hex Removal Spell",
     "description": "An Evil Force Could Be Responsible for Your Bad Fortune! We urge you not to put up with this one more day because it is within your means to take direct and effective action! Let us cast this negative force out of your life! The Reverse Curse is designed to remove the obstacles standing between you and success in every aspect of your life. Once the Reverse Curse Takes Hold",
-    "photo": "imgs/services/hexremoval.png"
+    "photo": "imgs/services/hexremoval.jpg",
+    "price": "120.00"
   },
   {
     "name": "Simple Love Spell",
     "description": "Are you certain your partner is the one with whom you want to spend the rest of your life? Do you have little doubt that once they lower their defenses and show you compassion and warmth, your relationship should get back to where it once was...exciting, fun, and most of all, loving? Do you yearn to finally have the reassurance that this person loves you with all their heart...and will never leave you? If the above words reflect your true feelings, the Love Me, Love Me, Love Me spell could be the catalyst that returns your relationship to the loving relationship it once was.",
-    "photo": "imgs/services/lovespell.png"
+    "photo": "imgs/services/love.jpg",
+    "price": "25.00"
   },
   {
     "name": "Third Party Removal",
     "description": "Are you in love with someone but this person unfortunately is also involved with someone else? If so, few things in life can be as unpleasant or as terrifying as knowing a third party may be stealing the love of your life away from you. And you fear this situation may soon be beyond anything you can do to fix it. So you had better act quickly.",
-    "photo": "imgs/services/thirdpartyspell.png"
+    "photo": "imgs/services/thirdpartyspell.png",
+    "price": "25.00"
   },
   {
     "name": "Cleasing Spell",
     "description": "You, like every living being, have an aura – a rainbow of colors encompassing your body. Your aura defines your past, your present, your future. Your aura determines if you will be lonely and isolated, or surrounded by loved ones. It determines if you will have money worries or be able to amass great wealth. Ultimately, your aura determines if you will be frustrated and sad – or successful and happy. A clean aura, unencumbered by imperfections, may allow the good things to enter your life.",
-    "photo": "imgs/services/cleasing.png"
+    "photo": "imgs/services/cleasing.png",
+    "price": "25.00"
   },
   {
     "name": "Money Spell",
     "description": "Well, if you've tried everything and have exhausted all opportunities, there is one more thing you can do. It's called a Money Spell. You can request that a Money Spell be cast in your behalf, and then just sit back and relax. In a relatively short time you could find yourself basking in a financial windfall. For centuries Money Spells have been cast for some of the most successful and wealthiest people in the world, and now you can try it yourself",
-    "photo": "imgs/services/moneyspell.png"
+    "photo": "imgs/services/moneyspell.png",
+    "price": "25.00"
   },
   {
     "name": "Twin Flame Spell",
     "description": "The Reconciliation Spell is cast by a Master Psychic and is extremely potent! Please be aware that this spell should not be cast unless your situation is urgent as the psychic forces unleashed by a Master Psychic are formidable. Once the spell is cast, the repairing will begin. Beautiful images of you are planted in the mind of the person you love, and you are visualized in a different, more favorable light.",
-    "photo": "imgs/services/twinflame.png"
+    "photo": "imgs/services/twinflame.png",
+    "price": "120.00"
   },
   {
     "name": "Custom Spell",
     "description": "call for information 404-901-9536",
-    "photo": "imgs/services/customspell.png"
+    "photo": "imgs/services/customspell.png",
+    "price": "120.00"
   },
   {
     "name": "Tarot Reading",
     "description": "3 Question Tarot Reading includes full spread",
-    "photo": "imgs/services/tarot.png"
+    "photo": "imgs/services/tarot.jpg",
+    "price": "30.00 / Private 90.00"
   },
   {
     "name": "Spiritual Reading",
     "description": "It has zero tools used, I will focus on your spiritual guides as well as my third eye.",
-    "photo": "imgs/services/spiritual.png"
+    "photo": "imgs/services/spiritual.jpg",
+    "price": "pending"
   },
   {
     "name": "Honey Jar Spell",
     "description": "Promotes love, peace, and harmony through out a relationship, and helps it stick like glue!",
-    "photo": "imgs/services/honeyjarspell.png"
+    "photo": "imgs/services/honey.jpg",
+    "price": "40.00"
   },
   {
     "name": "Chakra Balancing",
     "description": "Simply refers to restoring equilibrium to the natural flow of energy through the body. Negative experiences, stress, lack of sleep, grief, trauma, and physical injury can upset this flow. When a chakra is “blocked”, it means the energy flowing through that chakra is reduced",
-    "photo": "imgs/services/chakra.jpg"
+    "photo": "imgs/services/chakra.jpg",
+    "price": "pending"
   },
   {
     "name": "Cord Cutter Spell",
     "description": "Have you ever felt that you had an unhealthy attachment to someone? Maybe you’re having a hard time letting an ex go, or someone in your family hurt you deeply. You might even have an addiction you need to overcome, or a challenge like depression or anxiety that you can’t kick. Cord cutting can help with all of these situations.",
-    "photo": "imgs/services/cutterspell.png"
+    "photo": "imgs/services/cutterspell.png",
+    "price": "120.00"
   }
 ]

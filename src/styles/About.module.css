@@ -1,5 +1,5 @@
 .about {
-  width: 40rem;
+  max-width: 40rem;
   margin: 9rem auto 0rem auto;
   background-color: rgb(var(--black-color));
   border-radius: 2rem;
@@ -12,12 +12,11 @@
   height: 10rem;
   position: absolute;
   top: -6rem;
-  left: 239px;
+  left: 38%;
   padding: 1px;
   box-sizing: content-box;
   background-color: rgba(var(--purple-color), 0.2);
   border-radius: 40rem;
-
   cursor: pointer;
   margin: auto;
 }
@@ -66,4 +65,19 @@
 .about__social {
   margin-top: 1rem;
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 640px) {
+  .about {
+    padding: 0.25rem;
+    margin: 9rem 1rem 5rem 1rem;
+
+  }
+  .about__img-container {
+    left: 27%;
+    top: -7rem;
+  }
+  .about__description {
+    padding: 0.25rem;
+  }
 }

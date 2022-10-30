@@ -4,7 +4,7 @@ import styles from "../../styles/services/Item.module.css";
 function Item({ logo, title, description, price }) {
   const checkLength = (string) => {
     if (string.length > 256) {
-      let shorterString = string.substring(0,130);
+      let shorterString = string.substring(0, 130);
       shorterString = shorterString + "...";
       return shorterString;
     }
@@ -17,10 +17,10 @@ function Item({ logo, title, description, price }) {
       </div>
       <div className={styles["service__text"]}>
         <p className={styles["service__title"]}>{title}</p>
-        <p className={styles["service__description"]} >
+        <p className={styles["service__description"]}>
           {checkLength(description)}
         </p>
-        <p className={styles["service__price"]}>25.00</p>
+        <p className={styles["service__price"]}>{price}</p>
       </div>
     </div>
   );
